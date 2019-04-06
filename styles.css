@@ -1,20 +1,46 @@
 body {
     margin: 0px;
 }
+.header {
+    height: 30px;
+    width: 100%;
+    background-color: #041D36;
+}
 
-.container {
+.footer {
+    height: 30px;
+    width: 100%;
+    background-color: #041D36;
+}
+
+.mainContainer {
     display: flex;
     flex-wrap: wrap;
 }
 
 .sidebar {
-    background: red;
     width: 30%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
 }
 
 .main {
-    background: blue;
-    width: 70%;
+    width: 69%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.profileImage {
+    border-radius: 50%
+}
+
+.postInput {
+    height: 100px;
+    width: 500px
 }
