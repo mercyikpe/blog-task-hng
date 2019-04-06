@@ -44,3 +44,13 @@ body {
     height: 100px;
     width: 500px
 }
+
+.post {
+    display: flex;
+    margin-top: 2em;
+}
+
+.postDetails {
+    margin-left: 1em;
+    max-width: 50%;
+}
