@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    background: red;
+    width: 30%;
+    height: 100vh;
+}
+
+.main {
+    background: blue;
+    width: 70%;
+    height: 100vh;
+}
